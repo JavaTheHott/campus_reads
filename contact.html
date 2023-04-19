@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="ri-book-3-fill"></i><span>CampusReads</span></a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="books.html">Kitaplar</a></li>
+            <li><a href="aboutUs.html">Hakkımızda</a></li>
+            <li><a href="contact.html" class="active">İletişim</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="#" class="user"><i class="ri-user-3-fill"></i>Giriş Yap</a>
+            <a href="#">Kayıt Ol</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div> 
+    </header>
+
+        <div class="contactText">
+            <h2>Bize Ulaşın.</h2>
+            <p>Bizi ulaşmaktan çekinmeyin! Herhangi bir soru, öneri veya talebiniz varsa
+            bize ulaşın. <br>Aşağıdaki formu doldurarak bize kolayca ulaşabilirsiniz.
+            İlginiz için teşekkür ederiz.</p>
+        </div>
+        
+        
+
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Ad</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Adınız..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Soyad</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Okul</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="yasar">Yaşar Üniversitesi</option>
+                    <option value="pau">Pamukkale Üniversitesi</option>
+                    <option value="eko">Ekonomi Üniversitesi</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Mesaj</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Nasıl yardımıcı olabiliriz.." style="height:75px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Gönder">
+              </div>
+            </form>
+          </div>
+    
+    </section>
+    <!--js link-->
+    <script type="text/javascript" scr="script.js"></script>
+</body>
+</html>
